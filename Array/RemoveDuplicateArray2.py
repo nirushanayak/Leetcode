@@ -62,3 +62,12 @@ class Solution:
         return index+1
 
         
+# simple code :
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        j=1
+        for i in range(1,len(nums)):
+            if j==1 or nums[j-2]!=nums[i]:
+                nums[j]=nums[i]
+                j=j+1
+        return j
