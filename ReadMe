@@ -1,0 +1,7 @@
+1. Linked List:
+  
+  use dummyNode whereever possible
+
+  use in temr sof partition, make sure of same linked list but create different pointers, ref: partitionList prob 86
+
+  
